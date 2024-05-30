@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screen_bg">#343743</color>
+    <color name="primaryColor_local">#FF7269</color>
+    <color name="item_unselected">#A3A9BA</color>
+    <color name="grid_bg">#353842</color>
+    <color name="grid_textColor">#686F82</color>
+    <color name="search_bg">#252830</color>
+    <color name="ctg_text_color">#8E94A4</color>
+</resources>

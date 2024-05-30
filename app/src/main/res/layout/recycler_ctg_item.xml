@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingVertical="18dp"
+    android:paddingHorizontal="22dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/ctg_item_bg"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ctg_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ctg_burger" />
+    <TextView
+        android:id="@+id/ctg_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/ctg_text_color"
+        android:text="@string/burger" />
+</LinearLayout>

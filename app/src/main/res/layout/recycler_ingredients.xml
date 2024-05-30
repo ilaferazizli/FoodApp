@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="20dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/ingredient_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ingredient_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ing_broccoli"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/ingredient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/broccoli"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+</LinearLayout>
